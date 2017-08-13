@@ -19,11 +19,12 @@
         <div class="comm">
             <p>Send in your questions</p>
             <div class="form">
-                <form>
+                <form action="mail.php" method="post">
                     <input type="text" id="name" name="name" placeholder="NAME" required>
                     <input type="email" id="email" name="email" placeholder="EMAIL" required>
                     <textarea name="message" id="message" required placeholder="MESSAGE"></textarea>
-                    <button id="submit">SEND</button>
+                    <input type="submit" value="Send" id="submit"><input type="reset" value="Clear" id="submit">
+<!--                    <button id="submit">SEND</button>-->
                 </form>
             </div>
         </div>
